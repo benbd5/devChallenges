@@ -1,59 +1,58 @@
 @media screen and (max-width: 800px)
 {
     .image {
-    height: 238.00001525878906px;
-    width: 286.829833984375px;
-    left: 44px;
-    top: 109px;
-    border-radius: 0px;
+        height: 238.00001525878906px;
+        width: 286.829833984375px;
+        left: 44px;
+        top: 109px;
+        border-radius: 0px;
     }    
 
     body {
         position: relative;
-    width: 375px;
-    height: 949px;
-    background: #FFFFFF;
-    top: -541px;
-    left: 601px;
-    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+        width: 375px;
+        height: 949px;
+        background: #FFFFFF;
+        top: -541px;
+        left: 601px;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
     }
     .h1-top {
         height: 25px;
-    width: 133px;
-    left: 24px;
-    top: 20px;
-    border-radius: nullpx;
+        width: 133px;
+        left: 24px;
+        top: 20px;
+        border-radius: nullpx;
     }
     .h1-center {
         height: 142px;
-    width: 350px;
-    left: 24px;
-    top: 407px;
-    border-radius: nullpx;
-
+        width: 350px;
+        left: 24px;
+        top: 407px;
+        border-radius: nullpx;
     }
 }
 
 
 body {
-    position: relative;
-    width: 1440px;
-    height: 1080px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.85rem 5.5rem;
 }
 
-.h1-top {
-    width: 133px;
-    height: 25px;
-    left: 77px;
-    top: 40px;
+header {
+    align-self: flex-start;
+}
+
+header .h1-top {
     font-family: "Inconsolata", sans-serif;
 }
 
-.image {
+img .image {
     width: 539px;
     height: auto;
 
@@ -86,6 +85,9 @@ button {
     border-radius: 0px;
     text-transform: uppercase;
     font-weight: bold;
+    background: #333333;
+    color: #FFFFFF;
+    padding: 2em 3em;
 }
 
 footer {
