@@ -1,39 +1,12 @@
-@media screen and (max-width: 800px)
-{
-    .image {
-        height: 238.00001525878906px;
-        width: 286.829833984375px;
-        left: 44px;
-        top: 109px;
-        border-radius: 0px;
-    }    
-
-    body {
-        position: relative;
-        width: 375px;
-        height: 949px;
-        background: #FFFFFF;
-        top: -541px;
-        left: 601px;
-        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
-        border-radius: 12px;
-    }
-    .h1-top {
-        height: 25px;
-        width: 133px;
-        left: 24px;
-        top: 20px;
-        border-radius: nullpx;
-    }
-    .h1-center {
-        height: 142px;
-        width: 350px;
-        left: 24px;
-        top: 407px;
-        border-radius: nullpx;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
 
 body {
     min-height: 100vh;
@@ -44,18 +17,19 @@ body {
     padding: 2.85rem 5.5rem; /* ? voir pour ajuster le padding*/
 }
 
-header {
+.header {
     align-self: flex-start;
 }
 
-header .h1-top {
+.header .h1-top{
     font-family: "Inconsolata", sans-serif;
+    font-weight: bold;
+    font-size: 24px
 }
 
-img .image {
+.image img{
     width: 539px;
     height: auto;
-
 }
 
 .center {
@@ -70,6 +44,7 @@ img .image {
     justify-content: space-between;
     font-family: "Space Mono", sans-serif;
     width: 586px;
+    margin-left: 7em;
 }
 
 .h1-center {
@@ -82,29 +57,80 @@ img .image {
     font-weight: normal;
     font-size: 24px;
     max-width: 381px;
+    line-height: 36px;
     color: #4F4F4F;
+    padding: 2.57rem 0 4.57rem 0;
 }
 
-button {
+.back-button {
     height: 68px;
     width: max-content;
-    left: 740px;
-    top: 663px;
-    border-radius: 0px;
     text-transform: uppercase;
     font-weight: bold;
     background: #333333;
     color: #FFFFFF;
-    padding: 2em 3em;
+    padding: 1.5em 3em;
+    transition: background-color .1s;
 }
 
-footer {
-    display: flex;
+.back-button:hover {
+    background-color: #4F4F4F;
+}
+
+.footer {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    color: black;
 }
 
-footer:hover {
+.footer:hover {
     text-decoration: underline;
 }
 
+/* ADJUST FOR SMALLER DESKTOP */
+@media screen and (max-width: 1280px) {
+    .center {
+        transform: scale(.7);
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 800px)
+{
+    body {
+        padding: 1.42rem 1.71rem;
+    }
+    
+
+    .center {
+        transform: scale(1);
+        flex-direction: column;
+    }
+
+    .image {
+        margin: 5rem 0 5rem 0;
+    }
+
+    .image img{
+        width: 286px;
+    }    
+
+    .center {
+        margin-bottom: 7rem;
+    }
+
+    .elements-center {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 2rem 0 4.78rem 0;
+    }
+    .h1-center {
+        font-size: 44px;
+        line-height: 71px; 
+    }
+}
