@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{benbd5.github.io/devChallenges/404-not-found-challenge/}">
+    <a href="https://benbd5.github.io/devChallenges/404-not-found-challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{github.com/benbd5/devChallenges/tree/master/404-not-found-challenge}">
+    <a href="https://github.com/benbd5/devChallenges/tree/master/404-not-found-challenge">
       Solution
     </a>
     <span> | </span>
