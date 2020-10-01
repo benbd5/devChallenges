@@ -24,7 +24,7 @@
 
 ## Overview
 
-![screenshot](404-not-found-challenge\ressources\Figma_404_challenge.png)
+![screenshot]()
 
 
 ### Built With
