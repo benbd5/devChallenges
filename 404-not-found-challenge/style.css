@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 2.85rem 5.5rem; /* ? voir pour ajuster le padding*/
+    padding: 2.85rem 5.5rem;
 }
 
 .header {
@@ -95,7 +95,7 @@ body {
 }
 
 /* Mobile */
-@media screen and (max-width: 800px)
+@media screen and (max-width: 720px)
 {
     body {
         padding: 1.42rem 1.71rem;
