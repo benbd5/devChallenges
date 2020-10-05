@@ -24,7 +24,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/benbd5/devChallenges/blob/master/my-team-page-master/ressources/Capture%20d%E2%80%99%C3%A9cran%202020-10-05%20163740.pngg)
+![screenshot](https://github.com/benbd5/devChallenges/blob/master/my-team-page-master/ressources/Capture%20d%E2%80%99%C3%A9cran%202020-10-05%20163740.png)
 
 ### Built With
 
