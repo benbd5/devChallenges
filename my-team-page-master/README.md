@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{my-team-page-master}</h1>
+<h1 align="center">my-team-page-master</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -24,7 +24,7 @@
 
 ## Overview
 
-![screenshot](my-team-page-master\ressources\Capture d’écran 2020-10-05 163740.png)
+![screenshot](https://github.com/benbd5/devChallenges/blob/master/my-team-page-master/ressources/Capture%20d%E2%80%99%C3%A9cran%202020-10-05%20163740.png)
 
 ### Built With
 
