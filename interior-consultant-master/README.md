@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/benbd5/devChallenges/tree/master/interior-consultant-master}">
+    <a href="https://github.com/benbd5/devChallenges/tree/master/interior-consultant-master">
       Solution
     </a>
     <span> | </span>
