@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 <body>
     
     <div class="container">
         <header>
             <div class="logo">This interior</div>
-            <nav class="nav">
-                <ul class="liste-items">
-                    <li class="items" >Home</li>
-                    <li class="items" >Collection</li>
-                    <li class="items" >About</li>
-                    <li class="items" >Contact</li>
-                </ul>
-            </nav>
+            
+                <nav class="nav">
+                    <input type="checkbox" id="check">
+                        <label for="check" class="checkbox-btn">
+                            <i class="fa fa-bars" id="i"></i>
+                        </label>
+                    <ul class="liste-items">
+                        <li class="items" >Home</li>
+                        <li class="items" >Collection</li>
+                        <li class="items" >About</li>
+                        <li class="items" >Contact</li>
+                    </ul>
+                </nav>
         </header>    
 
         <main>
@@ -28,14 +34,13 @@
                 <div class="block-left">
                     <h1 class="title">Modern interior</h1>
                     <article class="p-infos">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</article>
-                    <div class="read">Read more</div>
-                    <i class="material-icons">trending_flat</i>
+                    <div class="read">Read more <i class="material-icons">trending_flat</i></div>
                 </div>
 
                 <div class="image">
-                    <img src="ressources\photo1.png" alt="interiors deco">
+                    <img class="img1" src="ressources\photo1.png" alt="interiors deco">
                 </div>
-                    
+                
                 <div class="card">
                     <div class="head-card">
                         <img src="ressources\photo2.png" alt="aliza illustration">
@@ -51,6 +56,33 @@
         </main>
     </div>    
 
-    <footer>Benjamin Belz @ DevChallenge.io</footer>
+    <footer>
+        <hr>
+        <p>Benjamin Belz @ DevChallenge.io</p> 
+    </footer>
+
+    <script>
+        
+        const check = document.querySelector('#check');
+        const i = document.getElementById("i");
+        
+        check.addEventListener('click', function(e) {
+            const check = document.getElementById("check").checked;
+        
+            if(check){
+                i.classList.remove("fa");
+                i.classList.remove("fa-bars");
+                i.classList.add("fas");
+                i.classList.add("fa-times");
+            } else {
+                i.classList.remove("fas");
+                i.classList.remove("fa-times");
+                i.classList.add("fa");
+                i.classList.add("fa-bars");
+            }
+        });
+        
+    </script>    
+
 </body>
 </html>
